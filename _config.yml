@@ -1,0 +1,22 @@
+title:              일일개피
+email:              devnneth@gmail.com
+description:        The early bird developer catches the tired
+author:             devnneth
+baseurl:            ""
+url:                "https://startbootstrap.github.io"
+
+twitter_username: devnneth
+github_username: devnneth
+facebook_username: 
+instagram_username: 
+linkedin_username: 
+
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
