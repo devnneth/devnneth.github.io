@@ -39,7 +39,7 @@ header.masthead {
         }
 
         .subheading {
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 300;
             line-height: 1.1;
             display: block;
@@ -66,7 +66,7 @@ header.masthead {
         }
 
         .subheading {
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 600;
             margin: 10px 0 30px;
             font-family: $headings-font-family;
@@ -85,11 +85,11 @@ header.masthead {
 
         @media only screen and (min-width: 768px) {
             h1 {
-                font-size: 55px;
+                font-size: 20px;
             }
 
             .subheading {
-                font-size: 30px;
+                font-size: 20px;
             }
         }
     }
