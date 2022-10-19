@@ -5,7 +5,7 @@ background: '/img/bg-post.jpg'
 ---
 
 <div class="row">
-  {% if paginator.posts.size == 0 %}
+  {% if paginator == nil %}
   <div class="postMain">
     <p>아직 작성된 글이 없습니다</p>
   </div>
