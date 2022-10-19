@@ -2,16 +2,17 @@
 #mainNav {
     background-color: white;
     position: absolute;
-    border-bottom: 1px solid $gray-200;
+    border-bottom: 1px solid #D3D3D3;
     font-family: $headings-font-family;
 
     .container {
+        padding: 0.5rem 1rem;
         background-color: white;
     }
 
     .navbar-brand {
-        font-weight: 600;
-        color: $gray-800;
+        font-weight: 400;
+        color: black;
     }
 
     .navbar-toggler {

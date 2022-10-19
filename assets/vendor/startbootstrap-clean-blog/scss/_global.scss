@@ -4,12 +4,73 @@
     font-weight: 400;
     font-family: 'Pretendard';
     line-height: 1.5;
-    background-color: #F5F5F5;
+}
+
+@media (max-width: 576px) {
+    .container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.navbar-brand {
+    padding: 0;
+    // background: linear-gradient(to top, rgba(254, 225, 10, 0.3) 40%, transparent 10%);
+    box-shadow: inset 0 -10px 0 rgba(254, 225, 10, 0.4); 
+}
+
+.postHead {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.postMain {
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    padding: 20px;
+    font-weight: 400;
+
+    .postTitle {
+        color: black;
+        font-size: 1.3rem;
+    }
+
+    .post-meta, .reading-time {
+        font-weight: 300;
+        font-size: 0.8rem;
+        margin-top: 0;
+        color: $gray-500;
+        align-self: flex-end;
+        padding-bottom: 10px;
+    }
+
+    h3, h4, h5, h6, p, span {
+        color: #272727;
+    }
+
+    h3, h4, h5, h6 {
+        padding-top: 10px;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        margin: 0.9rem 0;
+    }
 }
 
 body {
     font-size: 1rem;
     font-weight: 400;
+    background-color: #F5F5F5;
 }
 
 .navbar-menu {
@@ -52,6 +113,8 @@ h4,
 h5,
 h6 {
     font-weight: 600;
+    margin: 0px!important;
+    line-height: 1.5;
 }
 
 a {

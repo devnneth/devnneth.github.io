@@ -1,48 +1,48 @@
 // Styling for the post page
 .post-preview {
-    >a {
-        color: $gray-900;
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    padding: 20px;
 
-        &:focus,
-        &:hover {
+    >a {
+        align-content: flex-end;
+        flex-grow: 1;
+        color: $gray-900;
+        &:focus, &:hover {
             text-decoration: none;
             color: $primary;
         }
-
         >.post-title {
-            font-size: 20px;
-            margin-top: 20px;
-            margin-bottom: 10px;
+            color: black;
+            font-weight: 600;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
         }
-
         >.post-subtitle {
+            color: #A1A1A1;
+            padding-top: 5px;
+            font-size: .85rem;
             font-weight: 300;
-            margin: 0 0 10px;
         }
     }
 
-    >.post-meta {
-        font-size: 18px;
-        font-style: italic;
+    >.post-meta, .reading-time {
+        font-weight: 300;
+        font-size: 0.8rem;
         margin-top: 0;
-        color: $gray-600;
-
+        color: $gray-500;
+        align-self: flex-end;
+        padding-bottom: 5px;
         >a {
             text-decoration: none;
             color: $gray-900;
-
             &:focus,
             &:hover {
                 text-decoration: underline;
                 color: $primary;
-            }
-        }
-    }
-
-    @media only screen and (min-width: 768px) {
-        >a {
-            >.post-title {
-                font-size: 20px;
             }
         }
     }
