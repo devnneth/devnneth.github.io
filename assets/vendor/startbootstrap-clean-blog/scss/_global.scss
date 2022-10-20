@@ -16,6 +16,16 @@
     }
 }
 
+.headerSpace {
+    margin-top: 97px;
+}
+
+@media (max-width: 440px) {
+    .headerSpace {
+        margin-top: 140px;
+    }
+}
+
 .navbar-brand {
     padding: 0;
     // background: linear-gradient(to top, rgba(254, 225, 10, 0.3) 40%, transparent 10%);

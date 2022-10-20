@@ -10,6 +10,23 @@
         background-color: white;
     }
 
+    @media (max-width: 440px) {
+        .container {
+            padding: 0.5rem 1rem;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+
+            .navbar-brand {
+                margin-bottom: 10px;
+            }
+        }
+
+        .headerSpace {
+            margin-top: 110px;
+        }
+    }
+
     .navbar-brand {
         font-weight: 400;
         color: black;
